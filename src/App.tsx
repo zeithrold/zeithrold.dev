@@ -7,6 +7,7 @@ export default function App() {
       <FontProvider>
         <div>
           <h1>zeithrold.cloud</h1>
+          <p>Now under construction...</p>
         </div>
       </FontProvider>
     </React.StrictMode>
