@@ -25,7 +25,7 @@ export default function App() {
   return (
     <React.StrictMode>
       <ZeithroldProvider>
-        <CloudCommonHeader></CloudCommonHeader>
+        <CloudCommonHeader homepage={true}></CloudCommonHeader>
         <Header></Header>
         <div className={styles.appRoot}>
           <h1>The place where <span className={styles.appIdeaText}>idea</span> blinks.</h1>
