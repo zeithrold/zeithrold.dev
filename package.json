@@ -2,7 +2,7 @@
   "name": "zeithrold.cloud",
   "version": "1.0.0",
   "description": "",
-  "source": "static/index.html",
+  "source": "public/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -19,8 +19,14 @@
     "process": false
   },
   "dependencies": {
+    "@fluentui/font-icons-mdl2": "^8.4.2",
+    "@fluentui/react": "^8.77.3",
+    "i18next": "^21.8.11",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^11.17.3",
     "react-jss": "^10.9.0"
   }
 }
