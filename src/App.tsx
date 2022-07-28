@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { createUseStyles } from 'react-jss';
-import { initializeIcons } from '@fluentui/font-icons-mdl2';
 import CloudCommonHeader from './components/CloudCommonHeader';
 import Header from './components/Header';
 import ZeithroldProvider from './components/ZeithroldProvider';
