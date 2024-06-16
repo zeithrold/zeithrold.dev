@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { createUseStyles } from 'react-jss';
-import CloudCommonHeader from './components/CloudCommonHeader';
+import DevCommonHeader from './components/DevCommonHeader';
 import Header from './components/Header';
 import ZeithroldProvider from './components/ZeithroldProvider';
 
@@ -24,11 +24,11 @@ export default function App() {
   return (
     <React.StrictMode>
       <ZeithroldProvider>
-        <CloudCommonHeader homepage={true}></CloudCommonHeader>
+        <DevCommonHeader homepage={true}></DevCommonHeader>
         <Header></Header>
         <div className={styles.appRoot}>
           <h1>The place where <span className={styles.appIdeaText}>idea</span> blinks.</h1>
-          <p><span className={styles.appDomainText}>zeithrold.cloud </span>is Zeithrold's development zone.</p>
+          <p><span className={styles.appDomainText}>zeithrold.dev</span> is Zeithrold's development zone.</p>
           <p>Still under construction, stay tuned!</p>
         </div>
       </ZeithroldProvider>

@@ -20,7 +20,7 @@ export default function Header() {
   const styles = useStyles();
   return (
     <div className={styles.headerRoot}>
-      <span className={styles.headerTitle}>zeithrold.cloud</span>
+      <span className={styles.headerTitle}>zeithrold.dev</span>
     </div>
   );
 }

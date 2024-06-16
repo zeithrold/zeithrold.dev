@@ -21,17 +21,17 @@ const useStyles = createUseStyles({
   }
 });
 
-export interface CloudCommonHeaderProps {
-  // If the page is not zeithrold.cloud them show a link to the home page.
+export interface DevCommonHeaderProps {
+  // If the page is not zeithrold.dev then show a link to the home page.
   homepage?: boolean;
 }
 
-export default function CloudCommonHeader(props: CloudCommonHeaderProps) {
+export default function DevCommonHeader({ homepage }: DevCommonHeaderProps) {
   const styles = useStyles();
   return (
     <div className={styles.headerRoot}>
-      <span className={styles.headerText}>A zeithrold.cloud project</span>
-      {props.homepage ? null : <a href="https://zeithrold.cloud" className={styles.headerLink}>Home</a>}
+      <span className={styles.headerText}>A zeithrold.dev project</span>
+      {homepage ? null : <a href="https://zeithrold.dev" className={styles.headerLink}>Home</a>}
     </div>
   );
 }
