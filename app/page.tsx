@@ -20,6 +20,7 @@ export default function Home() {
           is Zeithrold's development zone.
         </p>
         <p>Still under construction, stay tuned!</p>
+        <p>This page is a brunch of next in zeithrold.dev, you can access it from <a href='https://next.zeithorld.dev'>next.zeithrold.dev</a></p>
       </main>
     </>
   )
